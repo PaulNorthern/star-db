@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import SwapiService from "../../services/swapi-service";
-import "./person-details.css";
+import "./item-details.css";
 
-export default class PersonDetails extends Component {
+export default class ItemDetails extends Component {
   swapiService = new SwapiService();
 
   state = {
